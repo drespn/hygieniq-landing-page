@@ -20,18 +20,17 @@ export const Statistics = () => {
                      textAlign: 'center',
                   }}
                >
-                  Over 8000+ projects completed
+                  Learning to trust your Salesfoce is hard, we know. 
                </Text>
                <Text
                   span
                   css={{
-                     maxWidth: '800px',
+                     maxWidth: '400px',
                      textAlign: 'center',
                   }}
                >
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Iusto provident omnis deleniti temporibus pariatur corporis
-                  aperiam
+                  Automatically scale to keep up with CRM decay and enable
+                  your other sales tools to work with more accurate lead data.
                </Text>
             </Flex>
             <Flex
@@ -47,37 +46,22 @@ export const Statistics = () => {
                }}
             >
                <Flex direction={'column'}>
-                  <Text h2 css={{color: '$blue600'}}>
-                     $500K+
+                  <Text h2 css={{color: '$blue600',textAlign: 'center'}}>
+                     $100K+/month
                   </Text>
                   <Text span css={{textAlign: 'center'}} weight={'medium'}>
-                     Revenue
+                     Saved in payroll costs saved in larger sales teams
                   </Text>
                </Flex>
                <Flex direction={'column'}>
                   <Text h2 css={{color: '$blue600'}}>
-                     10+
+                     10+ hours saved
                   </Text>
                   <Text span css={{textAlign: 'center'}} weight={'medium'}>
-                     Products
+                     Per sales rep/week
                   </Text>
                </Flex>
-               <Flex direction={'column'}>
-                  <Text h2 css={{color: '$blue600'}}>
-                     $150+
-                  </Text>
-                  <Text span css={{textAlign: 'center'}} weight={'medium'}>
-                     Components
-                  </Text>
-               </Flex>
-               <Flex direction={'column'}>
-                  <Text h2 css={{color: '$blue600'}}>
-                     10+
-                  </Text>
-                  <Text span css={{textAlign: 'center'}} weight={'medium'}>
-                     Employees
-                  </Text>
-               </Flex>
+               
             </Flex>
          </Box>
 

@@ -9,10 +9,11 @@ export const Footer = () => {
       <Flex
          css={{
             py: '$20',
-            px: '$6',
+            px: '6',
          }}
       >
          <Box as={'footer'} css={{width: '100%'}}>
+            {/*
             <Flex
                justify={'center'}
                wrap={'wrap'}
@@ -24,7 +25,7 @@ export const Footer = () => {
                   },
                   '@sm': {},
                }}
-            >
+               >
                <Flex
                   css={{gap: '$5', w: '250px'}}
                   direction={'column'}
@@ -171,14 +172,17 @@ export const Footer = () => {
                   </Box>
                </Flex>
             </Flex>
+            */}
             <Box
                css={{
                   'px': '$10',
                   '@md': {
                      px: '$56',
                   },
+                  alignContent: 'center',
                }}
             >
+               {/*
                <Divider
                   css={{
                      mt: '$14',
@@ -186,6 +190,7 @@ export const Footer = () => {
                      justifyContent: 'center',
                   }}
                />
+               */}
                <Flex
                   //   justify={'between'}
                   align={'center'}
@@ -206,13 +211,11 @@ export const Footer = () => {
                      wrap={'wrap'}
                   >
                      <AcmeLogo />
-                     <AcmeLogo />
-                     <AcmeLogo />
-                     <AcmeLogo />
                   </Flex>
                   <Flex
                      css={{
-                        gap: '$6',
+                        gap: '$8',
+                        justifyContent: 'center',
                      }}
                   >
                      <Text span css={{color: '$accents8'}}>
@@ -228,7 +231,7 @@ export const Footer = () => {
                      }}
                   >
                      <Text span css={{color: '$accents8'}}>
-                        © Copyright 2021 Acme Inc.
+                        © Copyright 2024 Hygieniq
                      </Text>
                   </Flex>
                </Flex>

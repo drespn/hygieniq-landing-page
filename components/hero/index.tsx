@@ -1,4 +1,4 @@
-import {Button, Divider, Input, Text} from '@nextui-org/react';
+import {Button, Divider, Input, Text,Link} from '@nextui-org/react';
 import React from 'react';
 import {CheckIcon} from '../icons/CheckIcon';
 import {Box} from '../styles/box';
@@ -25,55 +25,47 @@ export const Hero = () => {
          >
             <Box
                css={{
-                  pt: '$13',
 
                   display: 'flex',
                   flexDirection: 'column',
-                  gap: '$5',
+                  gap: '$0',
+                  justifyContent: 'center',
+                  alignItems: 'center',
                }}
             >
-               <Box
-                  css={{
-                     maxWidth: '600px',
-                  }}
-               >
+               
                   <Text
                      h1
                      css={{
                         display: 'inline',
+                        textAlign: 'center',
                      }}
                   >
-                     The modern landing page{' '}
-                  </Text>
+                     Learning to trust your Salesforce 
+                  </Text> 
                   <Text
                      h1
                      css={{
                         display: 'inline',
-                     }}
-                  >
-                     for{' '}
-                  </Text>
-                  <Text
-                     h1
-                     css={{
-                        display: 'inline',
+                        textAlign: 'center',
+
                      }}
                      color="primary"
                   >
-                     React developers
+                     starts today.
                   </Text>
-               </Box>
+            
 
                <Text
                   css={{
                      color: '$accents8',
                      maxWidth: '400px',
+                     textAlign: 'center',
                   }}
                   size={'$lg'}
                   span
                >
-                  The easiest way to build React Landing page in seconds. Save
-                  time and focus on your project.
+                  Automating updated CRM data from your source of truth is now one step away.
                </Text>
 
                <Flex
@@ -83,8 +75,10 @@ export const Hero = () => {
                   }}
                   wrap={'wrap'}
                >
-                  <Input placeholder="Enter your email address" size="lg" />
-                  <Button>Start Free Trial</Button>
+                  {/*<Input placeholder="Enter your email address" size="lg" />*/}
+                  <Button as={Link} target='_blank' href='https://43e2bd0f.sibforms.com/serve/MUIFAGsWGFtVji_sYzHXoSe_EeXPlnnbL481DOff5rbKpOqW6OArOuLy7aLrne8i16UyUapQpVbxvSx-hazL0y487UvwpfsjvpBUYbRYSwEZVYcLQpCTmvN0Bk69lvHIRCvRzm1kjY0SA-oKDmdRsWBbS2miz0PBNjGHgg2ZDGkinFiqvCkg8x9z7tF8fpSUulYi77UuW0FXI7uO'>
+                     Suscribe Now
+                  </Button>
                </Flex>
                <Flex
                   wrap={'wrap'}
@@ -121,16 +115,6 @@ export const Hero = () => {
                      <CheckIcon /> Cancel anytime.
                   </Flex>
                </Flex>
-            </Box>
-            <Box
-               css={{
-                  '& img': {
-                     width: '775px',
-                     objectFit: 'contain',
-                  },
-               }}
-            >
-               <img src="mock.png" />
             </Box>
          </Flex>
          <Divider

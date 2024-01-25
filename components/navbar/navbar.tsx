@@ -32,7 +32,7 @@ export const Nav = () => {
             <Navbar.Toggle aria-label="toggle navigation" showIn="xs" />
             <AcmeLogo />
             <Text b color="inherit" hideIn="xs">
-               ACME
+               HYGIENIQ
             </Text>
             <Navbar.Content
                hideIn="sm"
@@ -40,7 +40,7 @@ export const Nav = () => {
                   pl: '6rem',
                }}
             >
-               <Dropdown isBordered>
+               {/*<Dropdown isBordered>
                   <Navbar.Item>
                      <Dropdown.Button
                         auto
@@ -120,7 +120,7 @@ export const Nav = () => {
                   Customers
                </Navbar.Link>
                <Navbar.Link href="#">Pricing</Navbar.Link>
-               <Navbar.Link href="#">Company</Navbar.Link>
+                  <Navbar.Link href="#">Company</Navbar.Link>*/}
             </Navbar.Content>
          </Navbar.Brand>
 
@@ -138,6 +138,7 @@ export const Nav = () => {
                   </Link>
                </Navbar.CollapseItem>
             ))}
+
             <Navbar.CollapseItem>
                <Link
                   color="inherit"
@@ -160,13 +161,15 @@ export const Nav = () => {
             </Navbar.CollapseItem>
          </Navbar.Collapse>
          <Navbar.Content>
+            {/*}
             <ModalLogin />
-
+               */}
             <Navbar.Item>
-               <Button auto flat href="#">
-                  Start free trial
+               <Button auto flat as= {Link} target='_blank' href="https://43e2bd0f.sibforms.com/serve/MUIFAGsWGFtVji_sYzHXoSe_EeXPlnnbL481DOff5rbKpOqW6OArOuLy7aLrne8i16UyUapQpVbxvSx-hazL0y487UvwpfsjvpBUYbRYSwEZVYcLQpCTmvN0Bk69lvHIRCvRzm1kjY0SA-oKDmdRsWBbS2miz0PBNjGHgg2ZDGkinFiqvCkg8x9z7tF8fpSUulYi77UuW0FXI7uO">
+                  Suscribe now
                </Button>
             </Navbar.Item>
+            {/*
             <Navbar.Item hideIn={'xs'}>
                <Link
                   color="inherit"
@@ -179,6 +182,7 @@ export const Nav = () => {
                   <GithubIcon />
                </Link>
             </Navbar.Item>
+            */}
             <Navbar.Item hideIn={'xs'}>
                <Switch
                   checked={isDark}
