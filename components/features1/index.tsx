@@ -106,15 +106,27 @@ export const Features1 = () => {
                   </Flex>
                </Flex>
             </Flex>
-            <Flex align={'center'}>
+            <Flex align={'center'} css={{
+                  width: '100%',  // Takes up 90% of the screen width
+                  maxWidth: '1200px',  // Doesn't grow larger than 1200px
+                   // Centers the flex container
+               }}>
                
-               <Card style={{width: '700px', height: '500px', padding: '40px'}}>
+               <Card 
+               style={{
+               width: '100%',  // Takes up full width on small screens
+               maxWidth: '600px',// Doesn't grow larger than 700px
+               aspectRatio: '7/5',  // Maintains a 7:5 aspect ratio
+               padding: '20px',
+               marginLeft: '30%'
+   
+               
+               }}>
                   <Card.Body>
                   <iframe src="https://www.loom.com/embed/77c1e22d6d154b79b7eef319c47ed724?sid=8a34db02-4612-4961-ac6b-0ca3ff3ea90b"
                      allowFullScreen  
-                     style={{position: 'absolute',
-                     top: 0,
-                     left: 0,
+                     style={{
+                     
                      width: '100%',
                      height: '100%'
 
