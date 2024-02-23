@@ -21,10 +21,10 @@ const Home: NextPage = () => {
          <Box as="main">
             <Hero />
             {/*<Trusted />*/}
-            {/*<Features1 />*/}
+            {<Features1 />}
             {/*<Features2 />*/}
             {/*<Features3 />*/}
-            {/*<Testimonials />*/}
+            {<Testimonials />}
             <Statistics />
             {/*<Plans />*/}
             {/*<Faq />*/}

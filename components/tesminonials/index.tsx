@@ -1,4 +1,4 @@
-import {Button, Card, Divider, Text} from '@nextui-org/react';
+import {Button, Card, Divider, Text, Image, Link} from '@nextui-org/react';
 import React from 'react';
 import {QuotesIcon} from '../icons/QuotesIcon';
 import {Flex} from '../styles/flex';
@@ -12,7 +12,7 @@ export const Testimonials = () => {
                'gap': '1rem',
                'justifyContent': 'center',
                'alignItems': 'center',
-               'px': '$6',
+               'px': '$16',
                'py': '$20',
                'flexDirection': 'column-reverse',
                '@sm': {
@@ -23,9 +23,11 @@ export const Testimonials = () => {
                '@md': {
                   px: '$64',
                },
+               width: '100%',
             }}
          >
             <Flex direction="column" css={{gap: '1.5rem'}}>
+               {/*
                <Card>
                   <Card.Body>
                      <Flex
@@ -69,7 +71,7 @@ export const Testimonials = () => {
                      </Flex>
                   </Card.Body>
                </Card>
-
+                           
                <Card>
                   <Card.Body>
                      <Flex
@@ -115,7 +117,7 @@ export const Testimonials = () => {
                      </Flex>
                   </Card.Body>
                </Card>
-
+                              
                <Card>
                   <Card.Body>
                      <Flex
@@ -160,8 +162,17 @@ export const Testimonials = () => {
                         </Flex>
                      </Flex>
                   </Card.Body>
-               </Card>
+               </Card> */}
+               
+                  
             </Flex>
+            <Image
+                  src='/Laptop Dashboard.png'
+                  style={{marginLeft: '100px'}}
+                  
+                 
+                  
+               />
             <Flex
                align={'start'}
                direction={'column'}
@@ -172,17 +183,18 @@ export const Testimonials = () => {
                   },
                }}
             >
-               <Text span css={{color: '$blue600'}}>
-                  Awesome Feature
+               <Text span css={{color: '$blue600', fontSize:'$4xl', fontWeight:'bold'}}>
+                  Hygieniq Dashboard
                </Text>
-               <Text h3>Testimonials</Text>
+               <Text h1 css={{width:'100%'}}>Keep track of your progress.</Text>
                <Text span css={{color: '$accents8', maxW: '600px', pb: '$8'}}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  condimentum, nisl ut aliquam lacinia, nisl nisl aliquet nisl,
-                  nec tincidunt nisl lorem eu nunc. Sed euismod, nisl ut aliquam
-                  lacinia,
+                  Insights into your data hygiene and how it's improving over time. Your Salesorce has never
+                  looked better.
                </Text>
-               <Button>Read case studies</Button>
+               <Button
+               as={Link} target='_blank'
+               href='mailto:diegoespn01@gmail.com?subject=Hygieniq Demo Request'
+               >Request a demo</Button>
             </Flex>
          </Flex>
 

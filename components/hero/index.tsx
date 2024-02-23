@@ -59,13 +59,13 @@ export const Hero = () => {
                <Text
                   css={{
                      color: '$accents8',
-                     maxWidth: '400px',
+                     maxWidth: '500px',
                      textAlign: 'center',
                   }}
                   size={'$lg'}
                   span
                >
-                  Automating updated CRM data from your source of truth is now one step away.
+                  Give your sales reps' half their time back by automating the CRM admin work today.
                </Text>
 
                <Flex
@@ -80,6 +80,7 @@ export const Hero = () => {
                      Suscribe Now
                   </Button>
                </Flex>
+               {/*
                <Flex
                   wrap={'wrap'}
                   css={{
@@ -114,7 +115,7 @@ export const Hero = () => {
                   >
                      <CheckIcon /> Cancel anytime.
                   </Flex>
-               </Flex>
+               </Flex> */}
             </Box>
          </Flex>
          <Divider
