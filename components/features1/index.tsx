@@ -110,19 +110,22 @@ export const Features1 = () => {
                   width: '100%',  // Takes up 90% of the screen width
                   maxWidth: '1200px',
                   margin: '0 auto', 
-                  '@media (min-width: 600px)': {
-                     marginLeft: '30%',  // Applies 30% margin on screens larger than 600px
-                   }  // Doesn't grow larger than 1200px
+                   // Doesn't grow larger than 1200px
                    // Centers the flex container
                }}>
                
                <Card 
+               css={{
+                  '@media (min-width: 600px)': {
+                     marginLeft: '30%',  // Applies 30% margin on screens larger than 600px
+                   } 
+               }}
                style={{
                width: '100%',  // Takes up full width on small screens
                maxWidth: '600px',// Doesn't grow larger than 700px
                aspectRatio: '7/5',  // Maintains a 7:5 aspect ratio
                padding: '5px',
-               marginLeft: '30%'
+               
    
                
                }}>
