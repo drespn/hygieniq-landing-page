@@ -108,7 +108,7 @@ export const Features1 = () => {
             </Flex>
             <Flex align={'center'}>
                
-               <Card style={{width: '700px', height: '500px', padding: '20px'}}>
+               <Card style={{width: '700px', height: '500px', padding: '40px'}}>
                   <Card.Body>
                   <iframe src="https://www.loom.com/embed/77c1e22d6d154b79b7eef319c47ed724?sid=8a34db02-4612-4961-ac6b-0ca3ff3ea90b"
                      allowFullScreen  

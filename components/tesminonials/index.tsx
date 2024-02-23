@@ -9,7 +9,7 @@ export const Testimonials = () => {
          <Flex
             direction={'column'}
             css={{
-               'gap': '1rem',
+               'gap': '3rem',
                'justifyContent': 'center',
                'alignItems': 'center',
                'px': '$16',
@@ -23,11 +23,11 @@ export const Testimonials = () => {
                '@md': {
                   px: '$64',
                },
-               width: '100%',
             }}
          >
+            {/*
             <Flex direction="column" css={{gap: '1.5rem'}}>
-               {/*
+               
                <Card>
                   <Card.Body>
                      <Flex
@@ -162,16 +162,15 @@ export const Testimonials = () => {
                         </Flex>
                      </Flex>
                   </Card.Body>
-               </Card> */}
+               </Card> 
                
                   
-            </Flex>
+            </Flex>*/}
             <Image
                   src='/Laptop Dashboard.png'
-                  style={{marginLeft: '100px'}}
                   alt='Hygieniq Dashboard'
                   
-                 
+                 style={{paddingLeft: 'px'}}
                   
                />
             <Flex
