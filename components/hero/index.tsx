@@ -65,7 +65,7 @@ export const Hero = () => {
                   size={'$lg'}
                   span
                >
-                  Give your sales reps' half their time back by automating the CRM admin work today.
+                  Give your sales reps&apos; half their time back by automating the CRM admin work today.
                </Text>
 
                <Flex

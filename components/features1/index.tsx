@@ -101,7 +101,7 @@ export const Features1 = () => {
                            color: '$accents8',
                         }}
                      >
-                        Trust that you're managing the Leads and Accounts aligned to you, without the usual Salesforce mess.
+                        Trust that you are managing the Leads and Accounts aligned to you, without the usual Salesforce mess.
                      </Text>
                   </Flex>
                </Flex>

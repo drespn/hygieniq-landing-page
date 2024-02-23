@@ -169,6 +169,7 @@ export const Testimonials = () => {
             <Image
                   src='/Laptop Dashboard.png'
                   style={{marginLeft: '100px'}}
+                  alt='Hygieniq Dashboard'
                   
                  
                   
@@ -188,7 +189,7 @@ export const Testimonials = () => {
                </Text>
                <Text h1 css={{width:'100%'}}>Keep track of your progress.</Text>
                <Text span css={{color: '$accents8', maxW: '600px', pb: '$8'}}>
-                  Insights into your data hygiene and how it's improving over time. Your Salesorce has never
+                  Insights into your data hygiene and how it&apos;s improving over time. Your Salesorce has never
                   looked better.
                </Text>
                <Button
