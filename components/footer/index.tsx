@@ -1,4 +1,4 @@
-import {Divider, Text} from '@nextui-org/react';
+import {Divider, Text, Image} from '@nextui-org/react';
 import React from 'react';
 import {AcmeLogo} from '../navbar/logo';
 import {Box} from '../styles/box';
@@ -210,7 +210,11 @@ export const Footer = () => {
                      }}
                      wrap={'wrap'}
                   >
-                     <AcmeLogo />
+                  <Image
+                        src="/Hygienic logo solo website blue.svg"
+                        alt="HYGIENIQ"
+                        css={{padding: '0.5rem'}}
+                  />
                   </Flex>
                   <Flex
                      css={{
